@@ -1,0 +1,319 @@
+{
+  "_source": "Taken verbatim from the clickable prototype, design/Dossier.dc.html (SAMPLE, SEED_APPS, JD_SAMPLE, EXTRACT, REQS, COPY). Fictional data for development and demos.",
+  "profile": {
+    "name": "Jane Doe",
+    "headline": "Senior Product Designer",
+    "email": "jane.doe@example.com",
+    "phone": "+31 6 1234 5678",
+    "dob": "1992-04-18",
+    "showAge": false,
+    "address": "Westersingel 42",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "website": "example.com",
+    "linkedin": "linkedin.com/in/janedoe-example",
+    "summary": "Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.",
+    "experience": [
+      {
+        "id": "e1",
+        "role": "Senior Product Designer",
+        "company": "Northwind Logistics",
+        "location": "Rotterdam",
+        "start": "Mar 2021",
+        "end": "Present",
+        "skills": [
+          "Interaction design",
+          "Design systems",
+          "User research",
+          "Workshop facilitation"
+        ],
+        "bullets": "Led the redesign of the carrier portal used daily by 4,000+ dispatchers\nBuilt and maintained the design system across six product teams\nMentored three junior designers through their first year"
+      },
+      {
+        "id": "e2",
+        "role": "Product Designer",
+        "company": "Fieldnote",
+        "location": "Amsterdam",
+        "start": "Jun 2018",
+        "end": "Feb 2021",
+        "skills": [
+          "Prototyping",
+          "User research",
+          "Figma"
+        ],
+        "bullets": "Designed the mobile note-taking app from first prototype to 120k users\nRan monthly research sessions with field researchers"
+      },
+      {
+        "id": "e3",
+        "role": "UX Designer",
+        "company": "Studio Brik",
+        "location": "Rotterdam",
+        "start": "Sep 2015",
+        "end": "May 2018",
+        "skills": [
+          "HTML & CSS",
+          "Interaction design"
+        ],
+        "bullets": "Delivered web projects for cultural institutions and municipalities"
+      }
+    ],
+    "projects": [
+      {
+        "id": "p1",
+        "name": "Tidewater design tokens",
+        "link": "github.com/janedoe/tidewater",
+        "start": "Jan 2023",
+        "end": "Present",
+        "skills": [
+          "Design systems",
+          "Figma",
+          "HTML & CSS"
+        ],
+        "bullets": "Built an open-source Figma plugin that turns design tokens into CSS variables\nMaintain it with two contributors; used by design teams at several logistics startups"
+      }
+    ],
+    "education": [
+      {
+        "id": "d1",
+        "school": "TU Delft",
+        "degree": "MSc Design for Interaction",
+        "start": "2013",
+        "end": "2015",
+        "notes": "Thesis on trust in automated scheduling tools"
+      },
+      {
+        "id": "d2",
+        "school": "Willem de Kooning Academy",
+        "degree": "BA Communication Design",
+        "start": "2010",
+        "end": "2013",
+        "notes": ""
+      }
+    ],
+    "publications": [
+      {
+        "id": "u1",
+        "citation": "**Doe, J.**, & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. *Proceedings of the Delft Design Conference*, 4, 112–121.",
+        "link": "https://doi.org/10.5555/12345678"
+      }
+    ],
+    "skills": [
+      "Interaction design",
+      "Design systems",
+      "Prototyping",
+      "User research",
+      "Figma",
+      "HTML & CSS",
+      "Workshop facilitation"
+    ],
+    "languages": [
+      {
+        "name": "Dutch",
+        "level": "Native"
+      },
+      {
+        "name": "English",
+        "level": "Fluent (C2)"
+      },
+      {
+        "name": "German",
+        "level": "Intermediate (B1)"
+      }
+    ],
+    "references": [
+      {
+        "id": "r1",
+        "name": "John Doe",
+        "relation": "Former manager",
+        "company": "Northwind Logistics",
+        "email": "john.doe@example.com",
+        "phone": ""
+      }
+    ],
+    "facts": [
+      "I'd like to stay close to user research: it's the part of design work I enjoy most.",
+      "I can start at short notice, and I'd move anywhere in the Netherlands for the right team."
+    ]
+  },
+  "applications": [
+    {
+      "id": "s1",
+      "company": "Oaken Studio",
+      "role": "Design Systems Lead",
+      "location": "Amsterdam",
+      "mode": "Hybrid",
+      "salary": "€85,000–€100,000",
+      "status": "Offer",
+      "sent": "18 Aug",
+      "sentAgo": 40,
+      "daysAgo": 3,
+      "match": "7/7"
+    },
+    {
+      "id": "s2",
+      "company": "Northstar Health",
+      "role": "Lead Product Designer",
+      "location": "Utrecht",
+      "mode": "Hybrid",
+      "status": "Interview",
+      "sent": "2 Sep",
+      "sentAgo": 25,
+      "daysAgo": 2,
+      "interviewIn": 1,
+      "match": "6/7"
+    },
+    {
+      "id": "s3",
+      "company": "Tidewater Energy",
+      "role": "Senior UX Designer",
+      "location": "Rotterdam",
+      "mode": "On-site",
+      "status": "Screening",
+      "sent": "15 Sep",
+      "sentAgo": 12,
+      "daysAgo": 5,
+      "match": "5/7"
+    },
+    {
+      "id": "s4",
+      "company": "Kestrel Maps",
+      "role": "Product Designer, Mobile",
+      "location": "Anywhere in the EU",
+      "mode": "Remote",
+      "status": "Sent",
+      "sent": "20 Sep",
+      "sentAgo": 7,
+      "daysAgo": 7,
+      "match": "4/7"
+    },
+    {
+      "id": "s5",
+      "company": "Meridian Bank",
+      "role": "Product Designer, Onboarding",
+      "location": "Amsterdam",
+      "mode": "Hybrid",
+      "status": "Sent",
+      "sent": "23 Sep",
+      "sentAgo": 4,
+      "daysAgo": 4,
+      "match": "4/7"
+    },
+    {
+      "id": "s6",
+      "company": "Brightline Transit",
+      "role": "Senior Service Designer",
+      "location": "The Hague",
+      "mode": "Hybrid",
+      "status": "Draft",
+      "deadline": "3 Oct",
+      "daysAgo": 1,
+      "match": "5/7"
+    },
+    {
+      "id": "s7",
+      "company": "Parcelhub",
+      "role": "Senior Product Designer",
+      "location": "Eindhoven",
+      "mode": "Hybrid",
+      "status": "Rejected",
+      "reached": "Screening",
+      "sent": "28 Aug",
+      "sentAgo": 30,
+      "daysAgo": 15,
+      "match": "5/7"
+    },
+    {
+      "id": "s8",
+      "company": "Quill & Co",
+      "role": "UX Designer",
+      "location": "Anywhere",
+      "mode": "Remote",
+      "status": "Declined",
+      "reached": "Offer",
+      "sent": "10 Aug",
+      "sentAgo": 48,
+      "daysAgo": 28,
+      "match": "4/7"
+    }
+  ],
+  "ledgerly": {
+    "facts": ["I've used Ledgerly for my own freelance invoicing, so I know the product as a customer."],
+    "posting": "Ledgerly: Senior Product Designer, Payments\nAmsterdam (hybrid, 3 days in office) · €75,000–€90,000 · Apply by 15 October\n\nLedgerly helps small businesses across Europe get paid on time. Our Payments team builds the flows that move money (invoicing, payouts, reconciliation), and we're looking for a senior designer to make them feel calm and trustworthy.\n\nWhat you'll do\n- Own the design of payment and payout flows end to end\n- Work closely with engineering and compliance on high-stakes interactions\n- Evolve our design system together with the platform team\n- Plan and run research with small-business owners\n\nWhat we're looking for\n- 5+ years of product design, ideally on complex B2B tools\n- You've built or maintained a design system\n- You run user research independently\n- Strong prototyping skills in Figma\n- Accessibility know-how (WCAG 2.2)\n- Experience with payments or fintech\n- Dutch is a plus",
+    "extract": {
+      "title": "Senior Product Designer · Ledgerly Payments",
+      "company": "Ledgerly",
+      "role": "Senior Product Designer",
+      "location": "Amsterdam",
+      "mode": "Hybrid · 3 days in office",
+      "salary": "€75,000–€90,000",
+      "deadline": "15 Oct 2026"
+    },
+    "requirements": [
+      {
+        "text": "5+ years of product design, ideally on complex B2B tools",
+        "years": true
+      },
+      {
+        "text": "Has built or maintained a design system",
+        "skill": "Design systems"
+      },
+      {
+        "text": "Runs user research independently",
+        "skill": "User research"
+      },
+      {
+        "text": "Strong prototyping skills in Figma",
+        "skill": "Figma"
+      },
+      {
+        "text": "Accessibility know-how (WCAG 2.2)",
+        "skill": "Accessibility"
+      },
+      {
+        "text": "Experience with payments or fintech",
+        "none": "Nothing in your profile, so I'll address it honestly in the letter"
+      },
+      {
+        "text": "Dutch is a plus",
+        "lang": "Dutch"
+      }
+    ],
+    "resume": {
+      "summary": "Senior product designer with nine years of making complex operational tools feel calm and clear, most recently leading the carrier portal and design system at Northwind Logistics. I'd like to bring that to payments, where clarity and trust matter most.",
+      "experience": {
+        "e1": "Led the redesign of the carrier portal used daily by 4,000+ dispatchers: a dense, high-stakes workflow\nBuilt and maintained the design system across six product teams\nMentored three junior designers through their first year",
+        "e2": "Planned and ran monthly research sessions with field researchers\nDesigned a mobile note-taking app from first prototype to 120k users",
+        "e3": "Delivered web projects for cultural institutions and municipalities"
+      }
+    },
+    "letter": [
+      {
+        "label": "Opening paragraph",
+        "text": "I was excited to see the Senior Product Designer role on Ledgerly's payments team. Making complicated flows feel calm and trustworthy is what I've spent the last nine years on, and I'd love to do that for the small businesses you serve."
+      },
+      {
+        "label": "Experience paragraph",
+        "text": "At Northwind Logistics I lead design for the carrier portal, which more than 4,000 dispatchers rely on every day. Much of that work comes down to what payments needs too: dense information, actions that are hard to undo, and people who can't afford mistakes. I also built and maintain our design system across six product teams, so consistency that scales is close to my heart."
+      },
+      {
+        "label": "Fintech paragraph",
+        "text": "I haven't worked in payments directly yet, and I'd rather say so up front. What I bring instead is a habit of learning a domain through its users. At Fieldnote I ran monthly sessions with field researchers, and I'd start at Ledgerly the same way, with the business owners who depend on you."
+      },
+      {
+        "label": "Closing paragraph",
+        "text": "I'm based in Rotterdam and happy to work hybrid from your Amsterdam office. I'd love to talk about how I could help. Thank you for your time."
+      }
+    ],
+    "chat": {
+      "text": "Here's what I tailored for Ledgerly:",
+      "list": [
+        "Rewrote your summary around complex workflows and payments",
+        "Put design systems first at Northwind, and research first at Fieldnote",
+        "Ordered your skills by what Ledgerly asks for",
+        "Left out references, since the posting doesn't ask for them",
+        "Wrote a warm cover letter that's upfront about the fintech gap"
+      ],
+      "foot": "Nothing invented: every line comes from your profile."
+    }
+  }
+}

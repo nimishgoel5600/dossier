@@ -1,0 +1,74 @@
+services:
+  db:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-dossier}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      # Postgres 18+ keeps data in a versioned subdirectory, so mount the parent.
+      - pgdata:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build:
+      context: .
+      target: dev
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      # Overrides the localhost URL in .env, which is meant for tools run on the host.
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-dossier}
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      # Keep the container's own (Debian) node_modules and build cache
+      # instead of the host's. node_modules is a named volume so installs made
+      # through docker/bin/yarn persist, whichever container ran them.
+      - node_modules:/app/node_modules
+      - /app/.next
+
+  # Prisma Studio on http://localhost:5555. Not started by `docker compose up`;
+  # run `docker compose up -d studio` when you want it.
+  studio:
+    profiles: [tools]
+    build:
+      context: .
+      target: dev
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-dossier}
+    # Studio has no login and can edit every row, so keep it off the network.
+    ports:
+      - "127.0.0.1:5555:5555"
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    init: true
+    command: sh -c "node docker/studio-proxy.mjs & exec node_modules/.bin/prisma studio --port 5555 --browser none"
+
+  # A local model for trying the AI features. Not started by `docker compose
+  # up`: run `docker compose up -d ollama`, then pull a model with
+  # `docker compose exec ollama ollama pull qwen2.5:3b`. The app reaches it at
+  # http://ollama:11434; models are kept in the ollama volume.
+  ollama:
+    profiles: [ai]
+    image: ollama/ollama:0.40.6
+    volumes:
+      - ollama:/root/.ollama
+
+volumes:
+  pgdata:
+  node_modules:
+  ollama:

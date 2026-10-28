@@ -1,0 +1,508 @@
+/*
+ * Resumes and cover letters, for the on-screen preview and the PDF alike.
+ *
+ * Every length is in page units: the page is 640 units wide and `--u` is the
+ * size of one unit. The preview sets --u to fit its column; the print route
+ * sets it from the paper width (printCss in src/lib/themes.ts). The theme's
+ * numbers arrive as unitless custom properties on .page (see themeStyle in
+ * document-page.tsx), so this file never needs to know which theme is active.
+ *
+ * Documents keep their own colours: they're printed, so they don't follow the
+ * app's colour scheme, and neither does the app UI drawn on the paper.
+ */
+
+.page {
+  --doc-ink: #1d1c1a;
+  --doc-text: #2b2a27;
+  --doc-muted: #69655d;
+
+  /* Fonts for the scripts the theme fonts don't cover (src/fonts). Each one
+     only claims its own script, so they go first in every font stack. Han
+     characters take the document language's glyphs first. */
+  --cjk-fonts: var(--typeface-noto-sans-sc), var(--typeface-plex-sans-jp), var(--typeface-plex-sans-kr);
+  --script-fonts: var(--typeface-plex-sans-arabic), var(--typeface-plex-sans-devanagari), var(--cjk-fonts);
+
+  box-sizing: border-box;
+  width: calc(var(--u) * 640);
+  min-height: calc(var(--u) * var(--page-height));
+  padding: calc(var(--u) * var(--pad-y)) calc(var(--u) * var(--pad-x));
+  background: #fff;
+  color: var(--doc-text);
+  font-family: var(--body-font);
+  font-size: calc(var(--u) * var(--font-size));
+  line-height: var(--line-height);
+  text-align: start;
+  overflow-wrap: break-word;
+  print-color-adjust: exact;
+}
+
+.page:lang(ja) {
+  --cjk-fonts: var(--typeface-plex-sans-jp), var(--typeface-noto-sans-sc), var(--typeface-plex-sans-kr);
+}
+
+.page:lang(ko) {
+  --cjk-fonts: var(--typeface-plex-sans-kr), var(--typeface-noto-sans-sc), var(--typeface-plex-sans-jp);
+}
+
+/* Letter-spacing would pull joined Arabic letters and Devanagari conjuncts apart. */
+.page:is([dir="rtl"], :lang(hi)) :is(.name, .sectionTitle) {
+  letter-spacing: 0;
+}
+
+/* ─── Header ───────────────────────────────────────────────────────────── */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--u) * 4);
+  margin-bottom: calc(var(--u) * var(--gap));
+}
+
+.centered .header {
+  text-align: center;
+}
+
+.name {
+  font-family: var(--head-font);
+  font-size: calc(var(--u) * var(--name-size));
+  font-weight: var(--name-weight);
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  color: var(--doc-ink);
+}
+
+.headline {
+  font-size: 1.15em;
+  color: var(--accent);
+}
+
+.contactLine {
+  margin-top: calc(var(--u) * 4);
+  font-size: 0.9em;
+  color: var(--doc-muted);
+  /* Keeps the double spaces around each "·". */
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/*
+ * The profile photo (#224), cropped 3:4: the square shapes show its middle.
+ * Beside the name, the name, headline and contacts form a block next to it;
+ * above the name it has a line of its own, centred in a centred header.
+ */
+.photo {
+  flex: none;
+  width: calc(var(--u) * var(--photo-width));
+  height: calc(var(--u) * var(--photo-height));
+  object-fit: cover;
+  break-inside: avoid;
+}
+
+.photoCircle {
+  border-radius: 50%;
+}
+
+.photoRounded {
+  border-radius: calc(var(--u) * 12);
+}
+
+.headerWithPhoto {
+  flex-direction: row;
+  align-items: center;
+  gap: calc(var(--u) * 20);
+}
+
+.headerText {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: calc(var(--u) * 4);
+  min-width: 0;
+}
+
+.photoAbove {
+  margin-bottom: calc(var(--u) * 8);
+}
+
+.centered .photoAbove {
+  align-self: center;
+}
+
+/* ─── Columns and sections ─────────────────────────────────────────────── */
+
+.columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: calc(var(--u) * var(--gap));
+}
+
+.split .columns {
+  grid-template-columns: calc(var(--u) * var(--sidebar-width)) minmax(0, 1fr);
+  column-gap: calc(var(--u) * var(--sidebar-gap));
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--u) * var(--gap));
+  min-width: 0;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--u) * 6);
+}
+
+.sectionTitle {
+  padding-bottom: calc(var(--u) * var(--heading-padding));
+  border-bottom: calc(var(--u) * var(--heading-rule)) solid var(--accent);
+  font-family: var(--head-font);
+  font-size: calc(var(--u) * var(--heading-size));
+  font-weight: var(--heading-weight);
+  text-transform: var(--heading-transform);
+  letter-spacing: var(--heading-tracking);
+  color: var(--accent);
+  break-after: avoid;
+}
+
+.contactList {
+  font-size: 0.92em;
+  overflow-wrap: anywhere;
+}
+
+.summary {
+  text-wrap: pretty;
+}
+
+/* ─── Entries (roles, education) ───────────────────────────────────────── */
+
+.entry + .entry {
+  margin-top: calc(var(--u) * var(--item-gap));
+}
+
+/* A role's or degree's title line stays with what follows it. */
+.entryHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: calc(var(--u) * 12);
+  break-after: avoid;
+  break-inside: avoid;
+}
+
+.entryTitle {
+  font-weight: 600;
+  color: var(--doc-ink);
+}
+
+.dates {
+  flex: none;
+  font-size: 0.9em;
+  color: var(--doc-muted);
+  white-space: nowrap;
+}
+
+.bullets {
+  margin-top: calc(var(--u) * 3);
+  padding-inline-start: 1.1em;
+  list-style: disc;
+}
+
+.bullets li {
+  break-inside: avoid;
+}
+
+.bullets li:first-child {
+  break-before: avoid;
+}
+
+.entrySkills {
+  margin-top: calc(var(--u) * 3);
+  font-size: 0.9em;
+  color: var(--doc-muted);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.muted {
+  color: var(--doc-muted);
+}
+
+/* Publications (#218): one citation each, with its link after it. */
+.publication {
+  text-wrap: pretty;
+  break-inside: avoid;
+}
+
+.publication + .publication {
+  margin-top: calc(var(--u) * 5);
+}
+
+.link,
+.link:hover {
+  color: var(--doc-muted);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.references {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: calc(var(--u) * 10);
+}
+
+.references > * {
+  break-inside: avoid;
+}
+
+/* ─── Cover letter ─────────────────────────────────────────────────────── */
+
+.letter {
+  line-height: 1.62;
+}
+
+.sender {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--u) * 3);
+  margin-bottom: calc(var(--u) * 30);
+}
+
+.senderName {
+  font-family: var(--head-font);
+  font-size: calc(var(--u) * 20);
+  font-weight: var(--name-weight);
+  line-height: 1.2;
+  color: var(--doc-ink);
+}
+
+.sender .contactLine {
+  margin-top: 0;
+  font-size: 0.92em;
+}
+
+.letterDate {
+  margin-bottom: calc(var(--u) * 18);
+}
+
+.recipient {
+  margin-bottom: calc(var(--u) * 22);
+  font-style: normal;
+}
+
+.greeting {
+  margin-bottom: calc(var(--u) * 12);
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--u) * 14);
+}
+
+.paragraph {
+  text-wrap: pretty;
+  white-space: pre-line;
+}
+
+.signOff {
+  margin-top: calc(var(--u) * 26);
+  break-inside: avoid;
+}
+
+.signOff > :last-child {
+  margin-top: calc(var(--u) * 4);
+  font-weight: 600;
+  color: var(--doc-ink);
+}
+
+/* ─── Theme structures ─────────────────────────────────────────────────── */
+
+/*
+ * What a theme adds to the basic page, each switched on by a class on .page
+ * (themeClasses in document-page.tsx). Everything stays inside the page
+ * padding, which prints as the page margins, so the preview's pages match
+ * the PDF's.
+ */
+
+/* Banner: the resume's header and the letter's sender on a block of the accent. */
+.banner :is(.header, .sender) {
+  padding: calc(var(--u) * 22) calc(var(--u) * 24);
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.banner :is(.name, .senderName, .headline, .contactLine) {
+  color: var(--on-accent);
+}
+
+/* The sidebar at the end of the line: on the right, or on the left in right-to-left documents. */
+.sidebarEnd .columns {
+  grid-template-columns: minmax(0, 1fr) calc(var(--u) * var(--sidebar-width));
+}
+
+/*
+ * Tinted sidebar: a pale panel of the accent as tall as the columns, on every
+ * page they reach. Its column grows by the panel's padding, so the text in
+ * it is as wide as in a plain sidebar.
+ */
+.tintedSidebar .columns {
+  grid-template-columns: calc(var(--u) * (var(--sidebar-width) + 24)) minmax(0, 1fr);
+}
+
+.tintedSidebar.sidebarEnd .columns {
+  grid-template-columns: minmax(0, 1fr) calc(var(--u) * (var(--sidebar-width) + 24));
+}
+
+.sidebarPanel {
+  padding: calc(var(--u) * 14) calc(var(--u) * 12);
+  background: color-mix(in srgb, var(--accent) 7%, #fff);
+  box-decoration-break: clone;
+}
+
+/*
+ * Side headings: each section's title floats into a column of its own in
+ * the section's start padding, and its content runs beside it.
+ */
+.sideHeadings {
+  --side-heading-width: 112;
+}
+
+.sideHeadings .section {
+  display: flow-root;
+  padding-inline-start: calc(var(--u) * var(--side-heading-width));
+}
+
+.sideHeadings .sectionTitle {
+  float: inline-start;
+  width: calc(var(--u) * (var(--side-heading-width) - 16));
+  margin-inline-start: calc(var(--u) * var(--side-heading-width) * -1);
+}
+
+/* The section's own spacing, which the flex gap gave it before. */
+.sideHeadings .sectionTitle ~ * + * {
+  margin-top: calc(var(--u) * 6);
+}
+
+.sideHeadings .section > .entry + .entry {
+  margin-top: calc(var(--u) * (6 + var(--item-gap)));
+}
+
+/*
+ * Timeline: a role's or degree's dates float into a column before it. They
+ * come first in its title line, and take its line height, so they sit on
+ * the title's line.
+ */
+.timeline {
+  --date-width: 108;
+}
+
+.timeline.split {
+  --date-width: 78;
+}
+
+.timeline .entry {
+  padding-inline-start: calc(var(--u) * var(--date-width));
+}
+
+.timeline .entryHead {
+  display: block;
+}
+
+.timeline .dates {
+  float: inline-start;
+  width: calc(var(--u) * (var(--date-width) - 10));
+  margin-inline-start: calc(var(--u) * var(--date-width) * -1);
+  line-height: calc(var(--line-height) / 0.9);
+  white-space: normal;
+}
+
+/* Section titles after a short accent bar. */
+.headingBar .sectionTitle {
+  padding-inline-start: calc(var(--u) * 7);
+  border-inline-start: calc(var(--u) * 3) solid var(--accent);
+}
+
+/* Section titles on a pale band of the accent. */
+.headingBand .sectionTitle {
+  padding: calc(var(--u) * 3) calc(var(--u) * 7);
+  background: color-mix(in srgb, var(--accent) 10%, #fff);
+}
+
+/* ─── Paged preview ────────────────────────────────────────────────────── */
+
+/*
+ * DocumentPreview shows a document on the sheets it prints on. The document
+ * flows through one column per sheet, as tall as a page minus its margins,
+ * so the browser breaks it the way Chromium breaks the printed pages, with
+ * the same keep-together rules. The columns wrap downwards (column-wrap,
+ * Chromium 145+); the gap between two is one sheet's bottom margin, the
+ * canvas and the next sheet's top margin. The sheets are drawn behind.
+ *
+ * Text wraps a little differently at different sizes, enough to move a line
+ * to the next page, so the page is laid out at the paper's own size, as
+ * printed, and shrunk to the preview's. --preview-scale is that factor;
+ * app UI inside the page undoes it: the unit toolbar with zoom, the editor
+ * with larger sizes (unit-frame.module.css).
+ *
+ * Other browsers show one long page with a line where each page ends.
+ */
+.paged {
+  /* The preview's own unit, before the page swaps in the paper's. */
+  --preview-u: var(--u);
+}
+
+@supports (column-wrap: wrap) {
+  .paged > .page {
+    --u: calc(var(--paper-width) * 1mm / 640);
+    --preview-scale: calc(var(--preview-u) / var(--u));
+    scale: var(--preview-scale);
+    transform-origin: 0 0;
+    background: none;
+    column-count: 1;
+    column-gap: 0;
+    column-fill: auto;
+    column-height: calc(var(--paper-height) * 1mm - 2 * var(--u) * var(--pad-y));
+    column-wrap: wrap;
+    row-gap: calc(var(--u) * (2 * var(--pad-y) + var(--sheet-gap)));
+  }
+}
+
+.sheet {
+  position: absolute;
+  inset-inline: 0;
+  z-index: -1;
+  background: #fff;
+  box-shadow: var(--shadow-page);
+}
+
+/* App UI on the page, in the light scheme's colours to read on the paper in either scheme. */
+.pageEnd {
+  position: absolute;
+  inset-inline: 0;
+  border-top: 1px dashed rgb(29 28 26 / 0.14);
+  pointer-events: none;
+}
+
+.pageEnd::after {
+  content: "Page " attr(data-page);
+  position: absolute;
+  inset-inline-end: calc(var(--u) * 8);
+  top: calc(var(--u) * 2);
+  font: 500 10px/1.2 var(--font-sans);
+  color: #69655d;
+}
+
+/* ─── Print ────────────────────────────────────────────────────────────── */
+
+@media print {
+  /* The page padding becomes the @page margins (printCss), so every page gets it. */
+  .page {
+    width: auto;
+    min-height: 0;
+    padding: 0;
+  }
+}

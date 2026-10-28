@@ -1,0 +1,19 @@
+.git
+.github
+.next
+node_modules
+src/generated
+.env*
+npm-debug.log*
+Dockerfile
+.dockerignore
+# Not part of the app: planning docs, the prototype, the website, test output and local data.
+docs
+site
+_site
+design
+coverage
+playwright-report
+test-results
+e2e/.auth
+data

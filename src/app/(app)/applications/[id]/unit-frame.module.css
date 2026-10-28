@@ -1,0 +1,115 @@
+/*
+ * A tailored document's unit in the preview (E8-3): highlighted on hover or
+ * keyboard focus, with its toolbar above it. Lengths around the text are in
+ * page units (--u, set by the preview); the toolbar is app UI, in pixels.
+ * The highlight is a pseudo-element outside the text's box, so the preview
+ * keeps the printed layout.
+ */
+
+.frame {
+  position: relative;
+  isolation: isolate;
+  outline: none;
+}
+
+.frame::before {
+  content: "";
+  position: absolute;
+  inset: calc(var(--u) * -4) calc(var(--u) * -8);
+  z-index: -1;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+/* Keyboard focus counts, focus left behind by a click doesn't: it would keep a
+   second toolbar open next to the one under the pointer. */
+.frame:hover::before,
+.frame:focus-visible::before,
+.frame:has(:focus-visible)::before,
+.editing::before {
+  background: var(--color-hover);
+}
+
+.frame:focus-visible::before {
+  outline: 2px solid var(--color-ink);
+}
+
+/* After a save or an AI change: a short yellow glow that fades out. */
+.flash::before {
+  animation: flash 1.6s ease-out;
+}
+
+@keyframes flash {
+  from,
+  40% {
+    background: var(--color-flash);
+  }
+}
+
+.busy .content {
+  opacity: 0.4;
+  transition: opacity 0.2s;
+}
+
+/* Just above the highlight, overlapping it a little so the pointer can reach it. */
+.toolbar,
+.status {
+  position: absolute;
+  bottom: calc(100% + var(--u) * 4 - 2px);
+  inset-inline-end: 4px;
+  z-index: 5;
+  direction: ltr;
+}
+
+/* Hidden with opacity, not display: a hidden button can't take focus, so
+   Tab from the unit would drop focus on the page instead of reaching Edit
+   (E11-3). */
+.toolbar {
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.frame:hover > .toolbar,
+.frame:focus-visible > .toolbar,
+.frame:has(:focus-visible) > .toolbar {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* In the margin before the unit, so it doesn't move the text. */
+.check {
+  position: absolute;
+  inset-inline-end: calc(100% + var(--u) * 12);
+  top: 0.1em;
+}
+
+/* App UI, in pixels: a paged preview shrinks the page from the paper's size
+   (--preview-scale, document.module.css), so zoom undoes that here. */
+.toolbar,
+.status,
+.check {
+  zoom: calc(1 / var(--preview-scale, 1));
+}
+
+/* The editor can't use zoom: Chrome on macOS crashes the tab when a text box
+   in a zoomed block takes focus on the shrunk page. It grows the theme's
+   spacing, type and radius (globals.css) by the same factor instead. */
+.editor {
+  --px: calc(1px / var(--preview-scale, 1));
+  --spacing: calc(var(--px) * 4);
+  --text-xs: calc(var(--px) * 12);
+  --text-control: calc(var(--px) * 13.5);
+  --radius-control: calc(var(--px) * 8);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .frame::before {
+    transition: none;
+  }
+
+  .flash::before {
+    animation-duration: 0.01s;
+    background: var(--color-flash);
+  }
+}

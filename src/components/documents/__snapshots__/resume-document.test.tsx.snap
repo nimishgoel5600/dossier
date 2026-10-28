@@ -1,0 +1,4996 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ResumeDocument > renders the demo profile in Atlas 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7 _centered_fa1ef7 _banner_fa1ef7 _timeline_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 50; --pad-x: 54; --gap: 20; --item-gap: 10; --font-size: 10.5; --line-height: 1.5; --head-font: var(--script-fonts), var(--typeface-greek-serif), var(--typeface-libre-caslon); --body-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-inter); --accent: #a14a1f; --name-size: 30; --name-weight: 500; --heading-size: 9.5; --heading-weight: 600; --heading-transform: uppercase; --heading-tracking: .14em; --heading-rule: 0; --heading-padding: 0; --sidebar-width: 150; --sidebar-gap: 28; --on-accent: #ffffff;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+    <p
+      class="_contactLine_fa1ef7"
+    >
+      <bdi
+        dir="ltr"
+      >
+        jane.doe@example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        +31 6 1234 5678
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        Rotterdam, Netherlands
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        linkedin.com/in/janedoe-example
+      </bdi>
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`ResumeDocument > renders the demo profile in Chronicle 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7 _timeline_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 50; --pad-x: 54; --gap: 20; --item-gap: 10; --font-size: 10.5; --line-height: 1.5; --head-font: var(--script-fonts), var(--typeface-greek-serif), var(--typeface-fraunces); --body-font: var(--script-fonts), var(--typeface-greek-serif), var(--typeface-source-serif); --accent: #7b2337; --name-size: 30; --name-weight: 500; --heading-size: 12; --heading-weight: 600; --heading-transform: none; --heading-tracking: 0; --heading-rule: 1; --heading-padding: 3; --sidebar-width: 150; --sidebar-gap: 28;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+    <p
+      class="_contactLine_fa1ef7"
+    >
+      <bdi
+        dir="ltr"
+      >
+        jane.doe@example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        +31 6 1234 5678
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        Rotterdam, Netherlands
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        linkedin.com/in/janedoe-example
+      </bdi>
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`ResumeDocument > renders the demo profile in Classic 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7 _centered_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 50; --pad-x: 54; --gap: 20; --item-gap: 10; --font-size: 10.5; --line-height: 1.5; --head-font: var(--script-fonts), var(--typeface-greek-serif), var(--typeface-eb-garamond); --body-font: var(--script-fonts), var(--typeface-greek-serif), var(--typeface-eb-garamond); --accent: #1d1c1a; --name-size: 30; --name-weight: 500; --heading-size: 12; --heading-weight: 600; --heading-transform: none; --heading-tracking: 0; --heading-rule: 1; --heading-padding: 3; --sidebar-width: 150; --sidebar-gap: 28;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+    <p
+      class="_contactLine_fa1ef7"
+    >
+      <bdi
+        dir="ltr"
+      >
+        jane.doe@example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        +31 6 1234 5678
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        Rotterdam, Netherlands
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        linkedin.com/in/janedoe-example
+      </bdi>
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`ResumeDocument > renders the demo profile in Console 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7 _split_fa1ef7 _tintedSidebar_fa1ef7 _headingBand_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 38; --pad-x: 42; --gap: 14; --item-gap: 7; --font-size: 9.5; --line-height: 1.42; --head-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-jetbrains-mono); --body-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-work-sans); --accent: #4a5563; --name-size: 25; --name-weight: 600; --heading-size: 9.5; --heading-weight: 600; --heading-transform: uppercase; --heading-tracking: .14em; --heading-rule: 0; --heading-padding: 0; --sidebar-width: 150; --sidebar-gap: 28;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7 _sidebarPanel_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Contact
+        </h2>
+        <ul
+          class="_contactList_fa1ef7"
+        >
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              jane.doe@example.com
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              +31 6 1234 5678
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              Rotterdam, Netherlands
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              example.com
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              linkedin.com/in/janedoe-example
+            </bdi>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`ResumeDocument > renders the demo profile in Editorial 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 50; --pad-x: 54; --gap: 20; --item-gap: 10; --font-size: 10.5; --line-height: 1.5; --head-font: var(--script-fonts), var(--typeface-greek-serif), var(--typeface-newsreader); --body-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-geist); --accent: #7a3b2e; --name-size: 30; --name-weight: 500; --heading-size: 15; --heading-weight: 500; --heading-transform: none; --heading-tracking: -.005em; --heading-rule: 0; --heading-padding: 0; --sidebar-width: 150; --sidebar-gap: 28;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+    <p
+      class="_contactLine_fa1ef7"
+    >
+      <bdi
+        dir="ltr"
+      >
+        jane.doe@example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        +31 6 1234 5678
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        Rotterdam, Netherlands
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        linkedin.com/in/janedoe-example
+      </bdi>
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`ResumeDocument > renders the demo profile in Folio 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7 _sideHeadings_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 62; --pad-x: 64; --gap: 26; --item-gap: 13; --font-size: 10.5; --line-height: 1.65; --head-font: var(--script-fonts), var(--typeface-greek-serif), var(--typeface-playfair); --body-font: var(--script-fonts), var(--typeface-greek-serif), var(--typeface-lora); --accent: #1d1c1a; --name-size: 30; --name-weight: 500; --heading-size: 15; --heading-weight: 500; --heading-transform: none; --heading-tracking: -.005em; --heading-rule: 0; --heading-padding: 0; --sidebar-width: 150; --sidebar-gap: 28;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+    <p
+      class="_contactLine_fa1ef7"
+    >
+      <bdi
+        dir="ltr"
+      >
+        jane.doe@example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        +31 6 1234 5678
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        Rotterdam, Netherlands
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        linkedin.com/in/janedoe-example
+      </bdi>
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`ResumeDocument > renders the demo profile in Ledger 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7 _split_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 38; --pad-x: 42; --gap: 14; --item-gap: 7; --font-size: 9.5; --line-height: 1.42; --head-font: var(--script-fonts), var(--typeface-greek-serif), var(--typeface-newsreader); --body-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-plex-sans); --accent: #1d1c1a; --name-size: 30; --name-weight: 500; --heading-size: 12; --heading-weight: 600; --heading-transform: none; --heading-tracking: 0; --heading-rule: 1; --heading-padding: 3; --sidebar-width: 150; --sidebar-gap: 28;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Contact
+        </h2>
+        <ul
+          class="_contactList_fa1ef7"
+        >
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              jane.doe@example.com
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              +31 6 1234 5678
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              Rotterdam, Netherlands
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              example.com
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              linkedin.com/in/janedoe-example
+            </bdi>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`ResumeDocument > renders the demo profile in Minimal 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 62; --pad-x: 64; --gap: 26; --item-gap: 13; --font-size: 10.5; --line-height: 1.65; --head-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-plex-sans); --body-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-plex-sans); --accent: #6f6a62; --name-size: 25; --name-weight: 600; --heading-size: 9.5; --heading-weight: 600; --heading-transform: uppercase; --heading-tracking: .14em; --heading-rule: 0; --heading-padding: 0; --sidebar-width: 150; --sidebar-gap: 28;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+    <p
+      class="_contactLine_fa1ef7"
+    >
+      <bdi
+        dir="ltr"
+      >
+        jane.doe@example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        +31 6 1234 5678
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        Rotterdam, Netherlands
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        linkedin.com/in/janedoe-example
+      </bdi>
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`ResumeDocument > renders the demo profile in Modern 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7 _split_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 50; --pad-x: 54; --gap: 20; --item-gap: 10; --font-size: 10.5; --line-height: 1.5; --head-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-geist); --body-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-geist); --accent: #2f5d8a; --name-size: 25; --name-weight: 600; --heading-size: 9.5; --heading-weight: 600; --heading-transform: uppercase; --heading-tracking: .14em; --heading-rule: 0; --heading-padding: 0; --sidebar-width: 150; --sidebar-gap: 28;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Contact
+        </h2>
+        <ul
+          class="_contactList_fa1ef7"
+        >
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              jane.doe@example.com
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              +31 6 1234 5678
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              Rotterdam, Netherlands
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              example.com
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              linkedin.com/in/janedoe-example
+            </bdi>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`ResumeDocument > renders the demo profile in Signal 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7 _banner_fa1ef7 _headingBar_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 50; --pad-x: 54; --gap: 20; --item-gap: 10; --font-size: 10.5; --line-height: 1.5; --head-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-manrope); --body-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-manrope); --accent: #1f3a5f; --name-size: 25; --name-weight: 600; --heading-size: 9.5; --heading-weight: 700; --heading-transform: uppercase; --heading-tracking: .14em; --heading-rule: 0; --heading-padding: 0; --sidebar-width: 150; --sidebar-gap: 28; --on-accent: #ffffff;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+    <p
+      class="_contactLine_fa1ef7"
+    >
+      <bdi
+        dir="ltr"
+      >
+        jane.doe@example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        +31 6 1234 5678
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        Rotterdam, Netherlands
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        linkedin.com/in/janedoe-example
+      </bdi>
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`ResumeDocument > renders the demo profile in Studio 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7 _split_fa1ef7 _sidebarEnd_fa1ef7 _tintedSidebar_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 50; --pad-x: 54; --gap: 20; --item-gap: 10; --font-size: 10.5; --line-height: 1.5; --head-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-space-grotesk); --body-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-inter); --accent: #1f6f6b; --name-size: 25; --name-weight: 600; --heading-size: 9.5; --heading-weight: 600; --heading-transform: uppercase; --heading-tracking: .14em; --heading-rule: 0; --heading-padding: 0; --sidebar-width: 150; --sidebar-gap: 28;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7 _sidebarPanel_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Contact
+        </h2>
+        <ul
+          class="_contactList_fa1ef7"
+        >
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              jane.doe@example.com
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              +31 6 1234 5678
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              Rotterdam, Netherlands
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              example.com
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              linkedin.com/in/janedoe-example
+            </bdi>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`ResumeDocument > renders the demo profile in Technical 1`] = `
+<article
+  aria-label="Resume"
+  class="_page_fa1ef7 _split_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 38; --pad-x: 42; --gap: 14; --item-gap: 7; --font-size: 9.5; --line-height: 1.42; --head-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-plex-mono); --body-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-plex-sans); --accent: #2d6a4f; --name-size: 25; --name-weight: 600; --heading-size: 12; --heading-weight: 600; --heading-transform: none; --heading-tracking: 0; --heading-rule: 1; --heading-padding: 3; --sidebar-width: 150; --sidebar-gap: 28;"
+>
+  <header
+    class="_header_fa1ef7"
+  >
+    <h1
+      class="_name_fa1ef7"
+    >
+      Jane Doe
+    </h1>
+    <p
+      class="_headline_fa1ef7"
+    >
+      Senior Product Designer
+    </p>
+  </header>
+  <div
+    class="_columns_fa1ef7"
+  >
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Contact
+        </h2>
+        <ul
+          class="_contactList_fa1ef7"
+        >
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              jane.doe@example.com
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              +31 6 1234 5678
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              Rotterdam, Netherlands
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              example.com
+            </bdi>
+          </li>
+          <li>
+            <bdi
+              dir="ltr"
+            >
+              linkedin.com/in/janedoe-example
+            </bdi>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Skills
+        </h2>
+        <div
+          data-unit="skills"
+        >
+          <p>
+            Interaction design · Design systems · Prototyping · User research · Figma · HTML & CSS · Workshop facilitation
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Languages
+        </h2>
+        <div
+          data-unit="languages"
+        >
+          <p>
+            Dutch: Native · English: Fluent (C2) · German: Intermediate (B1)
+          </p>
+        </div>
+      </section>
+    </div>
+    <div
+      class="_column_fa1ef7"
+    >
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Profile
+        </h2>
+        <div
+          data-unit="summary"
+        >
+          <p
+            class="_summary_fa1ef7"
+          >
+            Product designer with nine years of experience turning complicated operational tools into calm, usable software. I like working close to engineering and closer to the people who use what we build.
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Experience
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Senior Product Designer
+              </span>
+              , 
+              Northwind Logistics
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Mar 2021 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Led the redesign of the carrier portal used daily by 4,000+ dispatchers
+            </li>
+            <li>
+              Built and maintained the design system across six product teams
+            </li>
+            <li>
+              Mentored three junior designers through their first year
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Interaction design, Design systems, User research, Workshop facilitation
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Product Designer
+              </span>
+              , 
+              Fieldnote
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jun 2018 – Feb 2021
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Designed the mobile note-taking app from first prototype to 120k users
+            </li>
+            <li>
+              Ran monthly research sessions with field researchers
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Prototyping, User research, Figma
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="experience:e3"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                UX Designer
+              </span>
+              , 
+              Studio Brik
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Sep 2015 – May 2018
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Delivered web projects for cultural institutions and municipalities
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            HTML & CSS, Interaction design
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Projects
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="project:p1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                Tidewater design tokens
+              </span>
+              , 
+              <bdi
+                dir="ltr"
+              >
+                github.com/janedoe/tidewater
+              </bdi>
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              Jan 2023 – Present
+            </span>
+          </div>
+          <ul
+            class="_bullets_fa1ef7"
+          >
+            <li>
+              Built an open-source Figma plugin that turns design tokens into CSS variables
+            </li>
+            <li>
+              Maintain it with two contributors; used by design teams at several logistics startups
+            </li>
+          </ul>
+          <p
+            class="_entrySkills_fa1ef7"
+          >
+            <span
+              class="_accent_fa1ef7"
+            >
+              Skills · 
+            </span>
+            Design systems, Figma, HTML & CSS
+          </p>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Education
+        </h2>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d1"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                MSc Design for Interaction
+              </span>
+              , 
+              TU Delft
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2013 – 2015
+            </span>
+          </div>
+          <p
+            class="_muted_fa1ef7"
+          >
+            Thesis on trust in automated scheduling tools
+          </p>
+        </div>
+        <div
+          class="_entry_fa1ef7"
+          data-unit="education:d2"
+        >
+          <div
+            class="_entryHead_fa1ef7"
+          >
+            <p>
+              <span
+                class="_entryTitle_fa1ef7"
+              >
+                BA Communication Design
+              </span>
+              , 
+              Willem de Kooning Academy
+            </p>
+            <span
+              class="_dates_fa1ef7"
+            >
+              2010 – 2013
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="_section_fa1ef7"
+      >
+        <h2
+          class="_sectionTitle_fa1ef7"
+        >
+          Publications
+        </h2>
+        <div
+          class="_publication_fa1ef7"
+          data-unit="publication:u1"
+        >
+          <p>
+            <strong>
+              Doe, J.
+            </strong>
+            , & Vermeer, K. (2016). Trust in automated scheduling: A field study with dispatch planners. 
+            <em>
+              Proceedings of the Delft Design Conference
+            </em>
+            , 4, 112–121.
+             
+            <a
+              class="_link_fa1ef7"
+              href="https://doi.org/10.5555/12345678"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <bdi
+                dir="ltr"
+              >
+                doi.org/10.5555/12345678
+              </bdi>
+            </a>
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+`;

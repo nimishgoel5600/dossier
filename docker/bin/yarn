@@ -1,0 +1,16 @@
+#!/bin/sh
+# Run yarn inside the app container, e.g. `docker/bin/yarn add zod`.
+# Uses the running container if there is one, otherwise a one-off container.
+set -eu
+
+cd "$(dirname "$0")/../.."
+
+# Only request a TTY when we have one, so this also works in pipes and CI.
+tty=""
+[ -t 0 ] && [ -t 1 ] || tty="-T"
+
+if [ -n "$(docker compose ps --status running --quiet app)" ]; then
+  exec docker compose exec $tty app yarn "$@"
+else
+  exec docker compose run --rm $tty app yarn "$@"
+fi

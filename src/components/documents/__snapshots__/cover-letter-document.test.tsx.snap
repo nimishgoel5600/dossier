@@ -1,0 +1,119 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CoverLetterDocument > renders the prototype's letter 1`] = `
+<article
+  aria-label="Cover letter"
+  class="_page_fa1ef7 _letter_fa1ef7"
+  dir="ltr"
+  style="--page-height: 905; --paper-width: 210; --paper-height: 297; --pad-y: 50; --pad-x: 54; --gap: 20; --item-gap: 10; --font-size: 10.5; --line-height: 1.5; --head-font: var(--script-fonts), var(--typeface-greek-serif), var(--typeface-newsreader); --body-font: var(--script-fonts), var(--typeface-greek-sans), var(--typeface-geist); --accent: #7a3b2e; --name-size: 30; --name-weight: 500; --heading-size: 15; --heading-weight: 500; --heading-transform: none; --heading-tracking: -.005em; --heading-rule: 0; --heading-padding: 0; --sidebar-width: 150; --sidebar-gap: 28;"
+>
+  <div
+    class="_sender_fa1ef7"
+    data-unit="sender"
+  >
+    <p
+      class="_senderName_fa1ef7"
+    >
+      Jane Doe
+    </p>
+    <p
+      class="_contactLine_fa1ef7"
+    >
+      <bdi
+        dir="ltr"
+      >
+        jane.doe@example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        +31 6 1234 5678
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        Rotterdam, Netherlands
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        example.com
+      </bdi>
+        ·  
+      <bdi
+        dir="ltr"
+      >
+        linkedin.com/in/janedoe-example
+      </bdi>
+    </p>
+  </div>
+  <div
+    class="_letterDate_fa1ef7"
+    data-unit="date"
+  >
+    27 September 2026
+  </div>
+  <div
+    class="_recipient_fa1ef7"
+    data-unit="recipient"
+  >
+    <p>
+      Ledgerly · Hiring team
+    </p>
+    <p>
+      Amsterdam
+    </p>
+  </div>
+  <div
+    class="_greeting_fa1ef7"
+    data-unit="greeting"
+  >
+    Dear Ledgerly team,
+  </div>
+  <div
+    class="_paragraphs_fa1ef7"
+  >
+    <div
+      class="_paragraph_fa1ef7"
+      data-unit="paragraph:1"
+    >
+      I was excited to see the Senior Product Designer role on Ledgerly's payments team. Making complicated flows feel calm and trustworthy is what I've spent the last nine years on, and I'd love to do that for the small businesses you serve.
+    </div>
+    <div
+      class="_paragraph_fa1ef7"
+      data-unit="paragraph:2"
+    >
+      At Northwind Logistics I lead design for the carrier portal, which more than 4,000 dispatchers rely on every day. Much of that work comes down to what payments needs too: dense information, actions that are hard to undo, and people who can't afford mistakes. I also built and maintain our design system across six product teams, so consistency that scales is close to my heart.
+    </div>
+    <div
+      class="_paragraph_fa1ef7"
+      data-unit="paragraph:3"
+    >
+      I haven't worked in payments directly yet, and I'd rather say so up front. What I bring instead is a habit of learning a domain through its users. At Fieldnote I ran monthly sessions with field researchers, and I'd start at Ledgerly the same way, with the business owners who depend on you.
+    </div>
+    <div
+      class="_paragraph_fa1ef7"
+      data-unit="paragraph:4"
+    >
+      I'm based in Rotterdam and happy to work hybrid from your Amsterdam office. I'd love to talk about how I could help. Thank you for your time.
+    </div>
+  </div>
+  <div
+    class="_signOff_fa1ef7"
+  >
+    <div
+      data-unit="sign-off"
+    >
+      Warm regards,
+    </div>
+    <div
+      data-unit="signature"
+    >
+      Jane Doe
+    </div>
+  </div>
+</article>
+`;
